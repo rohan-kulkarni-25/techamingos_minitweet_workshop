@@ -16,6 +16,6 @@ import tweetRouter from "./routes/tweet.router.js";
 
 // ROUTERS tweet user
 app.use("/api/v1/users", userRouter);
-app.use("/api/v1/users", tweetRouter);
+app.use("/api/v1/user", tweetRouter);
 
 export { app };
